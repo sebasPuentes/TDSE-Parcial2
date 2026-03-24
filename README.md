@@ -6,6 +6,11 @@ Se tiene un proxy que redirige las peticiones hacia dos servidores que contienen
 
 ![alt text](docs/blobid0.png)
 
+## Video Funcionamiento
+
+
+[Video Funcionamiento Juan Puentes Parcial](https://youtu.be/3K1G-PJnvaM)
+
 ## Implementacion
 
 - Math Service: Este Repositorio es el encargado de realizar el calculo matemático de la secuencia de pell. Se realiza un controlador y servicio para este caso.
