@@ -16,9 +16,9 @@ public class ProxyController{
 
     private static final String USER_AGENT = "Mozilla/5.0";
 
-    @Value("${SERVICE_URL1:http://localhost:8080}")
+    @Value("${SERVICE_URL1:http://54.174.229.2:8080}")
     private String service1;
-    //@Value("${SERVICE_URL2:}")
+    @Value("${SERVICE_URL2:http://13.221.151.115:8080}")
     private String service2;
 
     @GetMapping("/pellseq")

@@ -16,6 +16,6 @@ public class MathController{
 
     @GetMapping("/pellseq")
     public String getPell(int n){
-        return String.valueOf(mathService.pell(n));
+        return String.valueOf(mathService.toListPell(n));
     }
 }
